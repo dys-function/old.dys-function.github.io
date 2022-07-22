@@ -10,14 +10,16 @@ theme:
   favicon: isolation_icon.png
   palette:
     - scheme: default
-      primary: indigo
-      accent: deep purple
+      media: "(prefers-color-scheme: dark)"
+      primary: deep purple
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: deep purple
+      media: "(prefers-color-scheme: dark)"
+      primary: deep purple
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
