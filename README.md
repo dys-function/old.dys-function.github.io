@@ -1,3 +1,20 @@
-# Example MkDocs deploy GitHub Action
+# Dys:/functional Planet
+A site for all things Dys:/functional.
 
-This is a template that uses the  [MkDocs deploy](https://github.com/marketplace/actions/deploy-mkdocs) GitHub action.
+# Requirements
+- bash
+- make
+- python3
+- pipenv
+
+## Usage
+
+First time:
+```bash
+make install
+```
+
+Then...
+```bash
+make test
+```

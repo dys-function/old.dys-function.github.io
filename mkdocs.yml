@@ -1,10 +1,42 @@
-site_name: Test docs
-site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_name: 'Dys:/functional Planet'
+site_description: "A place for all things Dys:/functional."
+site_author: "Dys:/function Team"
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
-nav:
-    - Home: index.md
+repo_name: 'dys-function/dys-function.github.io'
+repo_url: 'https://github.com/dys-function/dys-function.github.io'
 theme:
-  name: 'material'
+  icon:
+    logo: fontawesome/solid/eye
+  favicon: isolation_icon.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+nav:
+  - Home: index.md
+  - Slices: slices.md
+  - Books: books.md
+  - Blog: blog.md 
+  - Contact: contact.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
