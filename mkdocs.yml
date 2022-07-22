@@ -28,9 +28,9 @@ theme:
     - navigation.tracking
 nav:
   - Home: index.md
-  - Slices: slices.md
   - Books: books.md
-  - Blog: blog.md 
+  - Slices: slices.md
+  - Codex: codex.md 
   - Contact: contact.md
 plugins:
   - search

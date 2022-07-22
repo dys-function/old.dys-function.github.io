@@ -7,4 +7,6 @@ hide:
 
 <center> <h1>Contact</h1> </center>
 
-<center> [dysfunctionalplanet@gmail.com](dysfunctionalplanet@gmail.com) </center>
+<br></br>
+
+<center> <h2> [dysfunctionalplanet@gmail.com](dysfunctionalplanet@gmail.com) </h2> </center>

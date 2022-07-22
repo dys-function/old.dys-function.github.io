@@ -70,7 +70,7 @@ of a futuristic cyberpunk world, taking place at various points in the series' t
 
 <br/><br/>
 
-### COMMING SOON!
+### *COMMING SOON!*
 
 <br clear="right"/>
 
