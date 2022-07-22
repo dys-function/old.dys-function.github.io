@@ -1,6 +1,9 @@
 install:
 	pipenv install
 
+build:
+	pipenv run mkdocs build
+
 test:
 	pipenv run mkdocs serve
 
