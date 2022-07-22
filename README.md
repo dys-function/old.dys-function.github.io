@@ -1,13 +1,15 @@
 # Dys:/functional Planet
 A site for all things Dys:/functional.
 
-# Requirements
+## Local Testing
+
+### Requirements
 - bash
 - make
 - python3
 - pipenv
 
-## Usage
+### Usage
 
 First time:
 ```bash
