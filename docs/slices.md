@@ -9,4 +9,4 @@ hide:
 
 <br/><br/>
 
-### COMMING SOON!
+<center> <h1>***COMMING SOON!***</h1> </center>
