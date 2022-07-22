@@ -9,20 +9,18 @@ theme:
     logo: fontawesome/solid/eye
   favicon: isolation_icon.png
   palette:
-    - scheme: default
-      media: "(prefers-color-scheme: dark)"
-      primary: deep purple
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
     - scheme: slate
-      media: "(prefers-color-scheme: dark)"
       primary: deep purple
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
   name: material
   features:
     - navigation.tabs
